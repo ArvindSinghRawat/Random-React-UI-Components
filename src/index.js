@@ -8,4 +8,4 @@ export const ExampleComponent = ({ text }) => {
 };
 
 // Components
-export { Card } from './components/material/card/Card';
+export { Card } from './components/material/Card/Card';
