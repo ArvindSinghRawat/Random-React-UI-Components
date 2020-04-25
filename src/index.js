@@ -8,5 +8,6 @@ export const ExampleComponent = ({ text }) => {
 };
 
 // Components
-export { Card } from './components/material/Card/Card';
+export { Card as MaterialCard } from './components/material/Card/Card';
+export { Card as NeumorphicCard } from './components/neumorphic/Card/Card';
 export { OutlineBox } from './components/extras/OutlineBox/OutlineBox';
