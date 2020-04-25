@@ -9,3 +9,4 @@ export const ExampleComponent = ({ text }) => {
 
 // Components
 export { Card } from './components/material/Card/Card';
+export { OutlineBox } from './components/extras/OutlineBox/OutlineBox';

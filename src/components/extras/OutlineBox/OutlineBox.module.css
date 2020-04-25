@@ -1,0 +1,22 @@
+.OutlineBox {
+  outline: none;
+  appearance: none;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 1px 1px #eee;
+}
+.OutlineBox.RoundedXS{
+    border-radius: 0.2em;
+}
+.OutlineBox.RoundedSM{
+    border-radius: 0.4em;
+}
+.OutlineBox.RoundedMD,
+.OutlineBox.Rounded{
+    border-radius: 0.8em;
+}
+.OutlineBox.RoundedLG{
+    border-radius: 1.6em;
+}
+.OutlineBox.RoundedXL{
+    border-radius: 3.2em;
+}
