@@ -20,7 +20,11 @@ const App = () => {
       >
         <h1>Cards</h1>
         <div className='row'>
-          <Card style={commonStyle} className={styles.VerticalFlexbox}>
+          <Card
+            style={commonStyle}
+            className={styles.VerticalFlexbox}
+            animate='shadow'
+          >
             This is Default Card
           </Card>
           <Card

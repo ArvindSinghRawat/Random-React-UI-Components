@@ -7,7 +7,7 @@ export const Card = (props) => {
   const cssClasses = [styles.Card, styles.ShadowSmooth];
   if (props.type) {
     const type = props.type.toLowerCase();
-    switch (props.type) {
+    switch (type) {
       case 'dark':
         cssClasses.push(styles.dark);
         break;
@@ -16,6 +16,16 @@ export const Card = (props) => {
         break;
       default:
         console.log(type + ' type not found');
+        break;
+    }
+  }
+  if (props.animate) {
+    const type = props.animate.toLowerCase();
+    switch (type) {
+      case 'shadow':
+        cssClasses.push(styles.ShadowAnimate);
+        break;
+      default:
         break;
     }
   }
