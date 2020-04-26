@@ -22,6 +22,7 @@
 }
 
 .Card.Inset {
+  background-color: '#E0E5EC';
   box-shadow: inset 5px 5px 12px 0 #a3b1e6, inset -5px -5px 15px 0 #fafafa !important;
 }
 
