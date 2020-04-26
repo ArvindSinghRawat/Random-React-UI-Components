@@ -9,7 +9,7 @@ Each Card comes with inset and outset classes.
 
 #### Image of a Neumorphic Card
 
-![Image of Neumorphic Card in Action](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/card/screenshots/DefaultNeumorphicCard.png?raw=true)
+![Image of Neumorphic Card in Action](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/Card/screenshots/DefaultNeumorphicCard.png?raw=true)
 
 ## Notes
 - It is highly recommended to use the same background colour as colour shades on Card.
@@ -36,7 +36,7 @@ Neumorphic Card comes with four types :
     </NeumorphicCard>
 ```
 > Result 
-![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/card/screenshots/DefaultNeumorphicCard.png?raw=true)
+![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/Card/screenshots/DefaultNeumorphicCard.png?raw=true)
 
 #### Inset type
 
@@ -48,7 +48,7 @@ Neumorphic Card comes with four types :
     </NeumorphicCard>
 ```
 > Result 
-![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/card/screenshots/InsetDefaultNeumorphicCard.png?raw=true)
+![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/Card/screenshots/InsetDefaultNeumorphicCard.png?raw=true)
 
 ### Light
 
@@ -63,7 +63,7 @@ Neumorphic Card comes with four types :
     </NeumorphicCard>
 ```
 > Result 
-> ![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/card/screenshots/LightNeumorphicCard.png?raw=true)
+> ![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/Card/screenshots/LightNeumorphicCard.png?raw=true)
 
 #### Inset
 
@@ -76,7 +76,7 @@ Neumorphic Card comes with four types :
         This is Neumorphic Card
     </NeumorphicCard>
 ```
-![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/card/screenshots/InsetLightNeumorphicCard.png?raw=true)
+![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/Card/screenshots/InsetLightNeumorphicCard.png?raw=true)
 
 ### Dark
 
@@ -91,7 +91,7 @@ Neumorphic Card comes with four types :
     </NeumorphicCard>
 ```
 > Result 
-> ![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/card/screenshots/DarkNeumorphicCard.png?raw=true)
+> ![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/Card/screenshots/DarkNeumorphicCard.png?raw=true)
 
 #### Inset
 
@@ -104,7 +104,7 @@ Neumorphic Card comes with four types :
         This is Neumorphic Dark Card
     </NeumorphicCard>
 ```
-![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/card/screenshots/InsetDarkNeumorphicCard.png?raw=true)
+![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/Card/screenshots/InsetDarkNeumorphicCard.png?raw=true)
 
 
 ### Extra Dark
@@ -120,12 +120,12 @@ Neumorphic Card comes with four types :
     </NeumorphicCard>
 ```
 > Result 
-> ![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/card/screenshots/ExtraDarkNeumorphicCard.png?raw=true)
+> ![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/Card/screenshots/ExtraDarkNeumorphicCard.png?raw=true)
 
 #### Inset
 
 > Usage
-    
+
 ```javascript
     <NeumorphicCard
         type='inset-xdark'
@@ -133,7 +133,7 @@ Neumorphic Card comes with four types :
         This is Neumorphic Extra Dark Card
     </NeumorphicCard>
 ```
-![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/card/screenshots/InsetExtraDarkNeumorphicCard.png?raw=true)
+![Image of Neumorphic Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/neumorphic/Card/screenshots/InsetExtraDarkNeumorphicCard.png?raw=true)
 
 
 
