@@ -11,6 +11,9 @@ export const Card = (props) => {
   if (props.type) {
     const type = props.type.toLowerCase();
     switch (type) {
+      case 'light':
+        cssClasses.push(styles.light);
+        break;
       case 'dark':
         cssClasses.push(styles.dark);
         break;
@@ -22,6 +25,10 @@ export const Card = (props) => {
         break;
       case 'inset-dark':
         cssClasses.push(styles.dark);
+        cssClasses.push(styles.Inset);
+        break;
+      case 'inset-light':
+        cssClasses.push(styles.light);
         cssClasses.push(styles.Inset);
         break;
       case 'inset-xdark':
