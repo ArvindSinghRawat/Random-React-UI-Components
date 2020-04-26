@@ -1,7 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // Styles
 import styles from './Card.module.css';
+
+const possibleTypes = ['dark', 'xdark'];
+const possibleAnimate = ['shadow'];
 
 export const Card = (props) => {
   const cssClasses = [styles.Card, styles.ShadowSmooth];
@@ -38,3 +42,13 @@ export const Card = (props) => {
     </div>
   );
 };
+
+Card.propTypes = {
+  type: PropTypes.oneOf(possibleTypes),
+  animate: PropTypes.oneOf(possibleAnimate),
+  className: PropTypes.string,
+  style: PropTypes.object,
+  children: PropTypes.oneOfType([PropTypes.element, PropTypes.node])
+};
+
+export default Card;

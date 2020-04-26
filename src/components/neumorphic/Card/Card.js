@@ -1,7 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // Styles
 import styles from './Card.module.css';
+
+const possibleType = ['dark', 'xdark', 'inset', 'inset-dark', 'inset-xdark'];
 
 export const Card = (props) => {
   const cssClasses = [styles.Card];
@@ -48,4 +51,11 @@ export const Card = (props) => {
       {props.children}
     </div>
   );
+};
+
+Card.propTypes = {
+  type: PropTypes.oneOf(possibleType),
+  className: PropTypes.string,
+  style: PropTypes.object,
+  children: PropTypes.oneOfType([PropTypes.element, PropTypes.node])
 };
