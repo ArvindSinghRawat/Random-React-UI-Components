@@ -1,0 +1,88 @@
+/* Cards Styling */
+
+.Card {
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 5px auto;
+  margin: 5px;
+}
+
+.Card.dark {
+  background-color: #255763;
+  border-color: darkslategray;
+  color: #fff;
+}
+
+.Card.xdark {
+  background-color: #000;
+  border-color: #255763;
+  color: #fff;
+}
+
+/* Shadow Styling */
+
+.ShadowSmooth {
+  box-shadow: 0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+    0 3.3px 2.6px rgba(0, 0, 0, 0.048), 0 6.25px 5px rgba(0, 0, 0, 0.06),
+    0 11.1px 9px rgba(0, 0, 0, 0.072), 0 20.9px 16.7px rgba(0, 0, 0, 0.086),
+    0 25px 40px rgba(0, 0, 0, 0.12);
+}
+
+.ShadowSmooth.ShadowAnimate:hover {
+  animation: shadowAnimation 0.5s linear;
+}
+
+.ShadowSmooth.dark {
+  box-shadow: 0 1.4px 1.1px rgba(0, 0, 0, 0.054),
+    0 3.3px 2.6px rgba(0, 0, 0, 0.068), 0 6.25px 5px rgba(0, 0, 0, 0.26),
+    0 11.1px 9px rgba(0, 0, 0, 0.092), 0 20.9px 16.7px rgba(0, 0, 0, 0.172),
+    0 25px 40px rgba(0, 0, 0, 0.32);
+}
+
+.ShadowSmooth.xdark {
+  box-shadow: 0 1.4px 1.1px rgba(0, 0, 0, 0.074),
+    0 3.3px 2.6px rgba(0, 0, 0, 0.088), 0 6.25px 5px rgba(0, 0, 0, 0.46),
+    0 11.1px 9px rgba(0, 0, 0, 0.112), 0 20.9px 16.7px rgba(0, 0, 0, 0.126),
+    0 25px 40px rgba(0, 0, 0, 0.52);
+}
+
+.ShadowSmooth.Responsive {
+  box-shadow: 0 1.4em 1.1em rgba(0, 0, 0, 0.034),
+    0 3.3em 2.6em rgba(0, 0, 0, 0.048), 0 6.25em 5em rgba(0, 0, 0, 0.06),
+    0 11.1em 9em rgba(0, 0, 0, 0.072), 0 20.9em 16.7em rgba(0, 0, 0, 0.086),
+    0 25em 40em rgba(0, 0, 0, 0.12);
+}
+
+@keyframes shadowAnimation {
+  0% {
+    box-shadow: 0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+      0 3.3px 2.6px rgba(0, 0, 0, 0.048), 0 6.25px 5px rgba(0, 0, 0, 0.06),
+      0 11.1px 9px rgba(0, 0, 0, 0.072), 0 20.9px 16.7px rgba(0, 0, 0, 0.086),
+      0 25px rgba(0, 0, 0, 0.12);
+  }
+  33.33% {
+    box-shadow: 0 1.4px 1.1px rgba(0, 0, 0, 0.054),
+      0 3.3px 2.6px rgba(0, 0, 0, 0.048), 0 6.25px 5px rgba(0, 0, 0, 0.06),
+      0 11.1px 9px rgba(0, 0, 0, 0.072), 0 20.9px 16.7px rgba(0, 0, 0, 0.086),
+      0 25px 40px rgba(0, 0, 0, 0.12);
+  }
+  50% {
+    box-shadow: 0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+      0 3.3px 2.6px rgba(0, 0, 0, 0.068), 0 6.25px 5px rgba(0, 0, 0, 0.06),
+      0 11.1px 9px rgba(0, 0, 0, 0.072), 0 20.9px 16.7px rgba(0, 0, 0, 0.086),
+      0 25px 40px rgba(0, 0, 0, 0.12);
+  }
+  66% {
+    box-shadow: 0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+      0 3.3px 2.6px rgba(0, 0, 0, 0.048), 0 6.25px 5px rgba(0, 0, 0, 0.26),
+      0 11.1px 9px rgba(0, 0, 0, 0.072), 0 20.9px 16.7px rgba(0, 0, 0, 0.086),
+      0 25px 40px rgba(0, 0, 0, 0.12);
+  }
+  100% {
+    box-shadow: 0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+      0 3.3px 2.6px rgba(0, 0, 0, 0.048), 0 6.25px 5px rgba(0, 0, 0, 0.06),
+      0 11.1px 9px rgba(0, 0, 0, 0.072), 0 20.9px 16.7px rgba(0, 0, 0, 0.086),
+      0 25px 40px rgba(0, 0, 0, 0.12);
+  }
+}
