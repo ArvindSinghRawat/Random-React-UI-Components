@@ -4,7 +4,7 @@ This is a wrapper that allows to wrap content with Card like component that have
 
 #### Image of a Material Card
 
-![Image of Material Card in Action](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/material/Card/screenshots/.png?raw=true)
+![Image of Material Card in Action](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/material/card/screenshots/NormalCard.png?raw=true)
 
 ## Types
 Material Card comes with three types : __*Default*__ (Colour: White); __*Dark*__ (Colour: DarkCyan(#255763)); and __*Extra Dark*__ (Colour: Black).
@@ -18,7 +18,7 @@ Material Card comes with three types : __*Default*__ (Colour: White); __*Dark*__
     </MaterialCard>
 ```
 > Result 
-![Image of Material Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/material/Card/screenshots/MaterialCard.png?raw=true)
+![Image of Material Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/material/card/screenshots/NormalCard.png?raw=true)
 
 
 ### Dark
@@ -32,7 +32,7 @@ Material Card comes with three types : __*Default*__ (Colour: White); __*Dark*__
     </MaterialCard>
 ```
 > Result 
-![Image of Dark Material Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/material/Card/screenshots/DarkCard.png?raw=true)
+![Image of Dark Material Card](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/material/card/screenshots/DarkCard.png?raw=true)
 
 ### Extra Dark
 
@@ -45,7 +45,7 @@ Material Card comes with three types : __*Default*__ (Colour: White); __*Dark*__
     </MaterialCard>
 ```
 > Result 
-![Image of Extra Dark Material Card in](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/material/Card/screenshots/ExtraDarkCard.png?raw=true)
+![Image of Extra Dark Material Card in](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/material/card/screenshots/ExtraDarkCard.png?raw=true)
 
 ## Animation
 Material Card is equipped with prebuilt animations, (currently only shadow animation).
@@ -61,7 +61,7 @@ Material Card is equipped with prebuilt animations, (currently only shadow anima
     </MaterialCard>
 ```
 > Result 
-![Image of Material Card Shadow Animation](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/material/Card/screenshots/MaterialCard.gif?raw=true)
+![Image of Material Card Shadow Animation](https://github.com/ArvindSinghRawat/Random-React-UI-Components/blob/master/src/components/material/card/screenshots/MaterialCard.gif?raw=true)
 
 
 - __* Extra styling of positioning and margin is added to increase size of card.__
