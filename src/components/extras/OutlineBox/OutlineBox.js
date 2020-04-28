@@ -6,11 +6,10 @@ import styles from './OutlineBox.module.css';
 
 export const OutlineBox = (props) => {
   const cssClasses = [styles.OutlineBox, styles.Rounded];
+  const finalClass =
+    cssClasses.join(' ') + (props.className ? ' ' + props.className : '');
   return (
-    <div
-      className={cssClasses.join(' ') + ' ' + props.className}
-      style={{ ...props.style }}
-    >
+    <div className={finalClass} style={{ ...props.style }}>
       {props.children}
     </div>
   );

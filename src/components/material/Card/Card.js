@@ -30,14 +30,16 @@ export const Card = (props) => {
         cssClasses.push(styles.ShadowAnimate);
         break;
       default:
+        console.log(type + ' animation not found');
         break;
     }
   }
+
+  const finalClass =
+    cssClasses.join(' ') + (props.className ? ' ' + props.className : '');
+
   return (
-    <div
-      className={cssClasses.join(' ') + ' ' + props.className}
-      style={{ ...props.style }}
-    >
+    <div className={finalClass} style={{ ...props.style }}>
       {props.children}
     </div>
   );

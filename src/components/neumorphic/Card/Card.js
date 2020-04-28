@@ -40,21 +40,10 @@ export const Card = (props) => {
         break;
     }
   }
-  //   if (props.animate) {
-  //     const type = props.animate.toLowerCase();
-  //     switch (type) {
-  //       case 'shadow':
-  //         cssClasses.push(styles.ShadowAnimate);
-  //         break;
-  //       default:
-  //         break;
-  //     }
-  // }
+  const finalClass =
+    cssClasses.join(' ') + (props.className ? ' ' + props.className : '');
   return (
-    <div
-      className={cssClasses.join(' ') + ' ' + props.className}
-      style={{ ...props.style }}
-    >
+    <div className={finalClass} style={{ ...props.style }}>
       {props.children}
     </div>
   );
