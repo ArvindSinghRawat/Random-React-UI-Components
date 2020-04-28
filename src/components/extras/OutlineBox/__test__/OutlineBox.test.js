@@ -15,5 +15,12 @@ describe('<OutlineBox />', () => {
 
   it('Should render <OutlineBox />', () => {
     expect(wrapper.text()).toMatch(content);
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('Should render <OutlineBox className="customClass"/>', () => {
+    wrapper.setProps({ className: 'customClass' });
+    expect(wrapper.text()).toMatch(content);
+    expect(wrapper).toMatchSnapshot();
   });
 });
