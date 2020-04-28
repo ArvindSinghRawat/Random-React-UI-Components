@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OutlineBox /> Should render <OutlineBox /> 1`] = `
+<div
+  className="OutlineBox Rounded"
+  style={Object {}}
+>
+  This is Outline Box.
+</div>
+`;
+
+exports[`<OutlineBox /> Should render <OutlineBox className="customClass"/> 1`] = `
+<div
+  className="OutlineBox Rounded customClass"
+  style={Object {}}
+>
+  This is Outline Box.
+</div>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> :  Should correctly render <Card /> for each type 1`] = `
+<div
+  className="Card"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card /> for each type 2`] = `
+<div
+  className="Card dark"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card /> for each type 3`] = `
+<div
+  className="Card xdark"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card /> for each type 4`] = `
+<div
+  className="Card Inset"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card /> for each type 5`] = `
+<div
+  className="Card dark Inset"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card /> for each type 6`] = `
+<div
+  className="Card xdark Inset"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card className="customClass" /> 1`] = `
+<div
+  className="Card customClass"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;

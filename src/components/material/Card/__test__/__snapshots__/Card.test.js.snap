@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> :  Should correctly render <Card /> 1`] = `
+<div
+  className="Card ShadowSmooth"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card class="dark"/> 1`] = `
+<div
+  className="Card ShadowSmooth dark"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card class="xdark"/> 1`] = `
+<div
+  className="Card ShadowSmooth xdark"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card className="customClass" /> 1`] = `
+<div
+  className="Card ShadowSmooth customClass"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card/> with shadow animation 1`] = `
+<div
+  className="Card ShadowSmooth ShadowAnimate"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
