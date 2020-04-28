@@ -25,8 +25,6 @@
     "deploy": "gh-pages -d example/build"
   },
   "jest": {
-    "collectCoverage": true,
-    "coverageDirectory": "<rootDir>/coverage",
     "coverageReporters": [
       "text",
       "html"

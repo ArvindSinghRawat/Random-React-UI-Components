@@ -6,8 +6,9 @@ import styles from './OutlineBox.module.css';
 
 export const OutlineBox = (props) => {
   const cssClasses = [styles.OutlineBox, styles.Rounded];
-  const finalClass =
-    cssClasses.join(' ') + (props.className ? ' ' + props.className : '');
+  const finalClass = (
+    cssClasses.join(' ') + (props.className ? ' ' + props.className : '')
+  ).trimRight();
   return (
     <div className={finalClass} style={{ ...props.style }}>
       {props.children}

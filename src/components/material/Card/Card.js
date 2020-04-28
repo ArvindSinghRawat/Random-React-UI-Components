@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 // Styles
 import styles from './Card.module.css';
 
-const possibleTypes = ['dark', 'xdark'];
+export const possibleTypes = ['dark', 'xdark'];
 const possibleAnimate = ['shadow'];
 
 export const Card = (props) => {
@@ -35,8 +35,9 @@ export const Card = (props) => {
     }
   }
 
-  const finalClass =
-    cssClasses.join(' ') + (props.className ? ' ' + props.className : '');
+  const finalClass = (
+    cssClasses.join(' ') + (props.className ? ' ' + props.className : '')
+  ).trimRight();
 
   return (
     <div className={finalClass} style={{ ...props.style }}>

@@ -4,7 +4,13 @@ import PropTypes from 'prop-types';
 // Styles
 import styles from './Card.module.css';
 
-const possibleType = ['dark', 'xdark', 'inset', 'inset-dark', 'inset-xdark'];
+export const possibleType = [
+  'dark',
+  'xdark',
+  'inset',
+  'inset-dark',
+  'inset-xdark'
+];
 
 export const Card = (props) => {
   const cssClasses = [styles.Card];
@@ -40,8 +46,9 @@ export const Card = (props) => {
         break;
     }
   }
-  const finalClass =
-    cssClasses.join(' ') + (props.className ? ' ' + props.className : '');
+  const finalClass = (
+    cssClasses.join(' ') + (props.className ? ' ' + props.className : '')
+  ).trimRight();
   return (
     <div className={finalClass} style={{ ...props.style }}>
       {props.children}
