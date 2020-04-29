@@ -4,7 +4,8 @@ import {
   ExampleComponent,
   MaterialCard,
   NeumorphicCard,
-  OutlineBox
+  OutlineBox,
+  MaterialButton
 } from 'random-react-ui-components';
 import 'random-react-ui-components/dist/index.css';
 import styles from './App.module.css';
@@ -14,7 +15,8 @@ const App = () => {
     width: 300,
     height: 300,
     margin: '15px auto',
-    padding: 'auto'
+    padding: 'auto',
+    textAlign: 'center'
   };
 
   const commonInnerStyle = {
@@ -37,7 +39,13 @@ const App = () => {
             className={styles.VerticalFlexbox}
             animate='shadow'
           >
-            This is Default Card
+            This is Default Card with a button <br />
+            <MaterialButton
+              type='danger none'
+              style={{ width: '150px', height: '50px' }}
+            >
+              Click Me !!!
+            </MaterialButton>
           </MaterialCard>
           <MaterialCard
             type='dark'
