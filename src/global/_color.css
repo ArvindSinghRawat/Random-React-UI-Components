@@ -1,0 +1,40 @@
+:root {
+  /* Colors */
+
+  /* Primary Shades */
+
+  --primary: #007eff;
+  --primary-1: #e5f2ff;
+  --primary-2: #cce5ff;
+  --primary-3: #b3d8ff;
+  --primary-4: #99cbff;
+  --primary-5: #80bfff;
+  --primary-6: #66b2ff;
+  --primary-7: #4da5ff;
+  --primary-8: #3398ff;
+  --primary-9: #1a8bff;
+
+  /* gray Shades */
+  --gray: #25282b;
+  --gray-1: #f9f9fa;
+  --gray-2: #e8e8e8;
+  --gray-3: #dbdde0;
+  --gray-4: #cacccf;
+  --gray-5: #a0a4a8;
+  --gray-6: #52575c;
+
+  /* Warning Shades */
+  --warning: #f6a609;
+  --warning-1: #e89806;
+  --warning-2: #ffbc1f;
+
+  /* Positive Shades */
+  --positive: #2ac769;
+  --positive-1: #1ab759;
+  --positive-2: #40dd7f;
+
+  /* Negative Shades */
+  --negative: #fb4e4e;
+  --negative-1: #e93c3c;
+  --negative-2: #ff6262;
+}
