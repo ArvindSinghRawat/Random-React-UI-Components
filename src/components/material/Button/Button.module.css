@@ -1,0 +1,219 @@
+/* Default or Primary Styling */
+
+.Button {
+  background-color: #007eff;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px #99cbff;
+  appearance: none;
+  outline: none;
+  border: none;
+  transition: all 0.1s ease-out;
+}
+
+.Button:active {
+  box-shadow: 0 2px 1px #99cbff, inset 0 3px 2px #006dee;
+  transform: translateY(3px);
+}
+
+.Button.Outline {
+  background-color: #fff;
+  border: 2px solid #007eff;
+  color: #007eff;
+}
+
+.Button.Outline:active {
+  box-shadow: 0 2px 2px #99cbff, inset 0 3px 4px #99cbff;
+  transform: translateY(3px);
+}
+
+.Button.None {
+  background-color: transparent;
+  border: none;
+  color: #007eff;
+  box-shadow: none;
+  transform: none;
+}
+
+.Button.None:hover {
+  box-shadow: 0 1px 2px 1px #eee !important;
+}
+
+.Button.None:active {
+  color: #008fff;
+  box-shadow: none;
+  transform: none;
+  box-shadow: inset 0 1px 2px 2px #eee !important;
+}
+
+/* Dark Button Styling */
+
+.Button.Dark {
+  background-color: #255763;
+  color: #fff;
+  box-shadow: 0 5px 3px #2e6d7c;
+  transition: all 0.1s ease-out;
+}
+
+.Button.Dark:active {
+  box-shadow: 0 2px 1px #2e6d7c, inset 0 3px 3px #1c414a;
+  transform: translateY(3px);
+}
+
+.Button.Dark.Outline {
+  background-color: #fff;
+  border: 2px solid #255763;
+  color: #255763;
+  box-shadow: 0 5px 3px #a0a4a8;
+}
+
+.Button.Dark.Outline:active {
+  box-shadow: 0 2px 2px #99cbff, inset 0 3px 4px #99cbff;
+  transform: translateY(3px);
+}
+
+.Button.Dark.None {
+  background-color: transparent;
+  border: none;
+  color: #255763;
+  box-shadow: none;
+  transform: none;
+}
+
+.Button.Dark.None:active {
+  color: #255763;
+  box-shadow: 0 2px 2px #99cbff, inset 0 3px 4px #99cbff;
+  transform: translateY(3px);
+}
+
+/* Dark Button Styling */
+
+.Button.Success {
+  background-color: #4cbb17;
+  color: #fff;
+  box-shadow: 0 5px 4px #40dd7f;
+  transition: all 0.1s ease-out;
+}
+
+.Button.Success:active {
+  box-shadow: 0 2px 1px#40dd7f, inset 0 3px 3px #708238;
+  transform: translateY(3px);
+}
+
+.Button.Success.Outline {
+  background-color: #fff;
+  border: 2px solid #4cbb17;
+  color: #4cbb17;
+  box-shadow: 0 5px 6px #40dd7f;
+}
+
+.Button.Success.Outline:active {
+  box-shadow: 0 2px 2px #40dd7f, inset 0 3px 4px #40dd7f;
+  transform: translateY(3px);
+}
+
+.Button.Success.None {
+  background-color: transparent;
+  border: none;
+  color: #4cbb17;
+  box-shadow: none;
+  transform: none;
+}
+
+.Button.Success.None:hover {
+  box-shadow: 0 2px 2px #40dd7f !important;
+}
+
+.Button.Success.None:active {
+  color: #4cbb17;
+  box-shadow: 0 1px 2px #40dd7f, inset 0 1px 2px #40dd7f !important;
+  transform: translateY(1px);
+}
+
+/* Warning Button Styling */
+
+.Button.Warning {
+  background-color: #f6a609;
+  color: #fff;
+  box-shadow: 0 5px 4px #e89806;
+  transition: all 0.1s ease-out;
+}
+
+.Button.Warning:active {
+  box-shadow: 0 2px 1px#e89806, inset 0 3px 2px #e89806;
+  transform: translateY(3px);
+}
+
+.Button.Warning.Outline {
+  background-color: #fff;
+  border: 2px solid #f6a609;
+  color: #f6a609;
+  box-shadow: 0 5px 6px #ffbc1f;
+}
+
+.Button.Warning.Outline:active {
+  box-shadow: 0 2px 2px #ffbc1f, inset 0 2px 2px #ffbc1f;
+  transform: translateY(3px);
+}
+
+.Button.Warning.None {
+  background-color: transparent;
+  border: none;
+  color: #f6a609;
+  box-shadow: none;
+  transform: none;
+}
+
+.Button.Warning.None:hover {
+  box-shadow: 0 2px 2px #ffbc1f !important;
+}
+
+.Button.Warning.None:active {
+  color: #4cbb17;
+  box-shadow: 0 1px 2px #ffbc1f, inset 0 1px 2px #ffbc1f !important;
+  transform: translateY(1px);
+}
+
+/* Danger Button Styling */
+
+.Button.Danger {
+  background-color: #fb4e4e;
+  color: #fff;
+  box-shadow: 0 5px 5px #ee2424;
+  transition: all 0.1s ease-out;
+}
+
+.Button.Danger:active {
+  box-shadow: 0 2px 2px#ee2424, inset 0 3px 2px #e93c3c;
+  transform: translateY(3px);
+}
+
+.Button.Danger.Outline {
+  background-color: #fff;
+  border: 2px solid #fb4e4e;
+  color: #fb4e4e;
+  box-shadow: 0 4px 5px #ff6262;
+}
+
+.Button.Danger.Outline:active {
+  box-shadow: 0 2px 2px #ff6262, inset 0 3px 3px #ff6262;
+  transform: translateY(3px);
+}
+
+.Button.Danger.None {
+  background-color: transparent;
+  border: none;
+  color: #fb4e4e;
+  box-shadow: none;
+  transform: none;
+}
+
+.Button.Danger.None:hover {
+  box-shadow: 0 2px 2px #ff6262 !important;
+}
+
+.Button.Danger.None:active {
+  color: #fb4e4e;
+  box-shadow: 0 1px 2px #ff6262, inset 0 1px 2px #ff6262 !important;
+  transform: translateY(1px);
+}
