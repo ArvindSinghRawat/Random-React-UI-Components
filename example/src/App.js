@@ -15,7 +15,7 @@ const App = () => {
     width: 300,
     height: 300,
     margin: '15px auto',
-    padding: 'auto',
+    padding: '25px 10px',
     textAlign: 'center'
   };
 
@@ -26,9 +26,129 @@ const App = () => {
     padding: 'auto'
   };
 
+  const commonButtonStyle = {
+    width: '150px',
+    height: '50px',
+    margin: '15px auto',
+    padding: 'auto'
+  };
+
   return (
     <div>
       <ExampleComponent text='Create React Library Example 😄' />
+      <OutlineBox style={{ margin: '5vh 5vw', padding: '5vh 2.5vw' }}>
+        <h1>Buttons</h1>
+        <div className='row' style={{ height: 'auto' }}>
+          <h2>Material Buttons</h2>
+          <MaterialCard
+            style={{
+              ...commonStyle,
+              width: '98%',
+              height: 'auto'
+            }}
+          >
+            <h3>Default or Primary</h3>
+            <OutlineBox
+              style={{
+                width: '98%',
+                display: 'flex',
+                justifyContent: 'space-evenly',
+                margin: '0 1%'
+              }}
+            >
+              <MaterialButton style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+              <MaterialButton type='outline' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+              <MaterialButton type='none' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+            </OutlineBox>
+
+            <h3>Dark</h3>
+            <OutlineBox
+              style={{
+                width: '98%',
+                display: 'flex',
+                justifyContent: 'space-evenly',
+                margin: '0 1%'
+              }}
+            >
+              <MaterialButton type='dark' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+              <MaterialButton type='dark outline' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+              <MaterialButton type='dark none' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+            </OutlineBox>
+
+            <h3>Success</h3>
+            <OutlineBox
+              style={{
+                width: '98%',
+                display: 'flex',
+                justifyContent: 'space-evenly',
+                margin: '0 1%'
+              }}
+            >
+              <MaterialButton type='success' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+              <MaterialButton type='success outline' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+              <MaterialButton type='success none' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+            </OutlineBox>
+
+            <h3>Warning</h3>
+            <OutlineBox
+              style={{
+                width: '98%',
+                display: 'flex',
+                justifyContent: 'space-evenly',
+                margin: '0 1%'
+              }}
+            >
+              <MaterialButton type='warning' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+              <MaterialButton type='warning outline' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+              <MaterialButton type='warning none' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+            </OutlineBox>
+
+            <h3>Danger</h3>
+            <OutlineBox
+              style={{
+                width: '98%',
+                display: 'flex',
+                justifyContent: 'space-evenly',
+                margin: '0 1%'
+              }}
+            >
+              <MaterialButton type='danger' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+              <MaterialButton type='danger outline' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+              <MaterialButton type='danger none' style={commonButtonStyle}>
+                Click Here !
+              </MaterialButton>
+            </OutlineBox>
+          </MaterialCard>
+        </div>
+      </OutlineBox>
       <OutlineBox
         style={{ margin: '5vh 5vw', padding: '5vh 2.5vw', overflow: 'hidden' }}
       >
