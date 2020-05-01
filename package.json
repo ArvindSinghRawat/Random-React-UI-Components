@@ -21,7 +21,7 @@
     "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
-    "test:coverage": "react-scripts test --coverage",
+    "test:coverage": "react-scripts test --coverage --watchAll=false",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
@@ -34,7 +34,9 @@
       "^.+\\.(jpg|png|svg)$": "<rootDir>/test-config/file-mock.js",
       "^.+\\.styl": "<rootDir>/test-config/style-mock.js"
     },
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "peerDependencies": {
     "react": "^16.0.0"
