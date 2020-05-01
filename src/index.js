@@ -1,12 +1,3 @@
-import React from 'react';
-
-// Styles
-import styles from './styles.module.css';
-
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>My Custom Component: {text}</div>;
-};
-
 // Components
 export { Card as MaterialCard } from './components/material/Card/Card';
 export { Button as MaterialButton } from './components/material/Button/Button';
