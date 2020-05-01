@@ -18,12 +18,15 @@ describe('<Card /> : ', () => {
   it('Should correctly render <Card /> for each type', () => {
     expect(wrapper.text()).toMatch(content);
     expect(wrapper).toMatchSnapshot();
-    for (const type of possibleType) {
+  });
+
+  for (const type of possibleType) {
+    it(`Should correctly render <Card type="${type}" /> for each type`, () => {
       wrapper.setProps({ type: type });
       expect(wrapper.text()).toMatch(content);
       expect(wrapper).toMatchSnapshot();
-    }
-  });
+    });
+  }
 
   it('Should correctly render <Card/> with console.log() error of Unknown type', () => {
     console.log = jest.fn();

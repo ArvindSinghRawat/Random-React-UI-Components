@@ -8,8 +8,10 @@ export const possibleType = [
   'dark',
   'xdark',
   'inset',
+  'light',
   'inset-dark',
-  'inset-xdark'
+  'inset-xdark',
+  'inset-light'
 ];
 
 export const Card = (props) => {

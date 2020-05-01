@@ -9,7 +9,16 @@ exports[`<Card /> :  Should correctly render <Card /> for each type 1`] = `
 </div>
 `;
 
-exports[`<Card /> :  Should correctly render <Card /> for each type 2`] = `
+exports[`<Card /> :  Should correctly render <Card className="customClass" /> 1`] = `
+<div
+  className="Card customClass"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card type="dark" /> for each type 1`] = `
 <div
   className="Card dark"
   style={Object {}}
@@ -18,16 +27,7 @@ exports[`<Card /> :  Should correctly render <Card /> for each type 2`] = `
 </div>
 `;
 
-exports[`<Card /> :  Should correctly render <Card /> for each type 3`] = `
-<div
-  className="Card xdark"
-  style={Object {}}
->
-  This is a Card.
-</div>
-`;
-
-exports[`<Card /> :  Should correctly render <Card /> for each type 4`] = `
+exports[`<Card /> :  Should correctly render <Card type="inset" /> for each type 1`] = `
 <div
   className="Card Inset"
   style={Object {}}
@@ -36,7 +36,7 @@ exports[`<Card /> :  Should correctly render <Card /> for each type 4`] = `
 </div>
 `;
 
-exports[`<Card /> :  Should correctly render <Card /> for each type 5`] = `
+exports[`<Card /> :  Should correctly render <Card type="inset-dark" /> for each type 1`] = `
 <div
   className="Card dark Inset"
   style={Object {}}
@@ -45,7 +45,16 @@ exports[`<Card /> :  Should correctly render <Card /> for each type 5`] = `
 </div>
 `;
 
-exports[`<Card /> :  Should correctly render <Card /> for each type 6`] = `
+exports[`<Card /> :  Should correctly render <Card type="inset-light" /> for each type 1`] = `
+<div
+  className="Card light Inset"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card type="inset-xdark" /> for each type 1`] = `
 <div
   className="Card xdark Inset"
   style={Object {}}
@@ -54,9 +63,18 @@ exports[`<Card /> :  Should correctly render <Card /> for each type 6`] = `
 </div>
 `;
 
-exports[`<Card /> :  Should correctly render <Card className="customClass" /> 1`] = `
+exports[`<Card /> :  Should correctly render <Card type="light" /> for each type 1`] = `
 <div
-  className="Card customClass"
+  className="Card light"
+  style={Object {}}
+>
+  This is a Card.
+</div>
+`;
+
+exports[`<Card /> :  Should correctly render <Card type="xdark" /> for each type 1`] = `
+<div
+  className="Card xdark"
   style={Object {}}
 >
   This is a Card.
