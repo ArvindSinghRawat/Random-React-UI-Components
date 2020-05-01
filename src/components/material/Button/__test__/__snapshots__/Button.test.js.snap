@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> :  Should correctly render <Button /> 1`] = `
+<button
+  className="Button"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button className="customClass" /> 1`] = `
+<button
+  className="Button customClass"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button onClick="custommethod" /> 1`] = `
+<button
+  className="Button"
+  onClick={[MockFunction]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type"none"/> for each type 1`] = `
+<button
+  className="Button None"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type"outline"/> for each type 1`] = `
+<button
+  className="Button Outline"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="danger none"/> for each color-type combination 1`] = `
+<button
+  className="Button Danger None"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="danger outline"/> for each color-type combination 1`] = `
+<button
+  className="Button Danger Outline"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="danger"/> for each type 1`] = `
+<button
+  className="Button Danger"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="dark none"/> for each color-type combination 1`] = `
+<button
+  className="Button Dark None"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="dark outline"/> for each color-type combination 1`] = `
+<button
+  className="Button Dark Outline"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="dark"/> for each type 1`] = `
+<button
+  className="Button Dark"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="primary none"/> for each color-type combination 1`] = `
+<button
+  className="Button Primary None"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="primary outline"/> for each color-type combination 1`] = `
+<button
+  className="Button Primary Outline"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="primary"/> for each type 1`] = `
+<button
+  className="Button Primary"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="success none"/> for each color-type combination 1`] = `
+<button
+  className="Button Success None"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="success outline"/> for each color-type combination 1`] = `
+<button
+  className="Button Success Outline"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="success"/> for each type 1`] = `
+<button
+  className="Button Success"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="warning none"/> for each color-type combination 1`] = `
+<button
+  className="Button Warning None"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="warning outline"/> for each color-type combination 1`] = `
+<button
+  className="Button Warning Outline"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;
+
+exports[`<Button /> :  Should correctly render <Button type="warning"/> for each type 1`] = `
+<button
+  className="Button Warning"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Click Me !
+</button>
+`;

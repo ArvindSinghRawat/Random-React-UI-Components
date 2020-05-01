@@ -35,6 +35,8 @@ export const Button = (props) => {
       temp = possibleTypes.indexOf(element);
       if (temp !== -1) {
         type.push(typesCss[element]);
+      } else {
+        console.log(`${element} not known as type`);
       }
     }
   }
@@ -56,8 +58,6 @@ export const Button = (props) => {
   } else if (type.length === 1) {
     cssClasses.push(type.pop());
   }
-
-  console.log(cssClasses);
 
   const finalClass = (
     cssClasses.join(' ') + (props.className ? ' ' + props.className : '')
