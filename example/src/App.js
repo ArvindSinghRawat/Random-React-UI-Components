@@ -1,11 +1,11 @@
 import React from 'react';
 
 import {
-  ExampleComponent,
   MaterialCard,
   NeumorphicCard,
   OutlineBox,
-  MaterialButton
+  MaterialButton,
+  NeumorphicButton
 } from 'random-react-ui-components';
 import 'random-react-ui-components/dist/index.css';
 import styles from './App.module.css';
@@ -35,11 +35,27 @@ const App = () => {
 
   return (
     <div>
-      <ExampleComponent text='Create React Library Example 😄' />
+      <OutlineBox
+        style={{
+          margin: '15px 5vw',
+          padding: '25px 10px',
+          textAlign: 'center'
+        }}
+      >
+        <h1>
+          Random React UI Components{' '}
+          <span role='img' aria-label='HaHa'>
+            😄
+          </span>
+        </h1>
+      </OutlineBox>
       <OutlineBox style={{ margin: '5vh 5vw', padding: '5vh 2.5vw' }}>
         <h1>Buttons</h1>
-        <div className='row' style={{ height: 'auto' }}>
-          <h2>Material Buttons</h2>
+        <div className='row' style={{ height: 'auto', textAlign: 'center' }}>
+          {/* Material Buttons */}
+          <h2 style={{ width: '100%', marginBottom: '50px' }}>
+            Material Buttons
+          </h2>
           <MaterialCard
             style={{
               ...commonStyle,
@@ -146,6 +162,104 @@ const App = () => {
                 Click Here !
               </MaterialButton>
             </OutlineBox>
+          </MaterialCard>
+
+          {/* Neumorphic Buttons */}
+          <h2 style={{ width: '100%', marginTop: '50px' }}>
+            Neumorphic Buttons
+          </h2>
+          <MaterialCard
+            style={{
+              ...commonStyle,
+              width: '98%',
+              height: 'auto'
+            }}
+          >
+            <h3>Default or Primary</h3>
+            <OutlineBox
+              style={{
+                width: '98%',
+                display: 'flex',
+                justifyContent: 'space-evenly',
+                margin: '0 1%'
+              }}
+            >
+              <NeumorphicButton style={commonButtonStyle}>
+                Neumorphic Click Here !
+              </NeumorphicButton>
+              <NeumorphicButton type='inset' style={commonButtonStyle}>
+                Click Here !
+              </NeumorphicButton>
+              <NeumorphicButton type='defaultIn' style={commonButtonStyle}>
+                Click Here !
+              </NeumorphicButton>
+            </OutlineBox>
+            <h3>Light</h3>
+            <OutlineBox
+              style={{
+                backgroundColor: '#e0e5ec',
+                width: '98%',
+                display: 'flex',
+                justifyContent: 'space-evenly',
+                margin: '0 1%'
+              }}
+            >
+              <NeumorphicButton type='light' style={commonButtonStyle}>
+                Click Here !
+              </NeumorphicButton>
+              <NeumorphicButton type='light inset' style={commonButtonStyle}>
+                Click Here !
+              </NeumorphicButton>
+              <NeumorphicButton
+                type='light defaultIn'
+                style={commonButtonStyle}
+              >
+                Click Here !
+              </NeumorphicButton>
+            </OutlineBox>
+            <h3>Dark</h3>
+            <MaterialCard
+              type='dark'
+              style={{
+                width: '98%',
+                display: 'flex',
+                justifyContent: 'space-evenly',
+                margin: '0 1%'
+              }}
+            >
+              <NeumorphicButton type='dark' style={commonButtonStyle}>
+                Click Here !
+              </NeumorphicButton>
+              <NeumorphicButton type='dark inset' style={commonButtonStyle}>
+                Click Here !
+              </NeumorphicButton>
+              <NeumorphicButton type='dark defaultIn' style={commonButtonStyle}>
+                Click Here !
+              </NeumorphicButton>
+            </MaterialCard>
+            <h3>Extra Dark</h3>
+            <MaterialCard
+              type='xdark'
+              style={{
+                width: '98%',
+                display: 'flex',
+                justifyContent: 'space-evenly',
+                margin: '0 1%'
+              }}
+            >
+              <NeumorphicButton type='xdark' style={commonButtonStyle}>
+                Click Here !
+              </NeumorphicButton>
+              <NeumorphicButton type='xdark inset' style={commonButtonStyle}>
+                Click Here !
+              </NeumorphicButton>
+              <NeumorphicButton
+                type='xdark defaultIn'
+                style={commonButtonStyle}
+              >
+                Click Here !
+              </NeumorphicButton>
+            </MaterialCard>
           </MaterialCard>
         </div>
       </OutlineBox>
