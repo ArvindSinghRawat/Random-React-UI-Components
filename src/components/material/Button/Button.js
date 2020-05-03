@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 // Styles
 import styles from './Button.module.css';
+import { buttonWrapper } from '../../../hoc/ButtonWrapper';
 
 const colorCss = {
   primary: styles.Primary,
@@ -20,52 +21,10 @@ const typesCss = {
 export const possibleTypes = Object.keys(typesCss);
 export const possibleColor = Object.keys(colorCss);
 
-export const Button = (props) => {
-  const cssClasses = [styles.Button];
-
-  const type = [];
-  const color = [];
-
-  const receivedType = props.type ? props.type.split(/[ ,-]+/) : [];
-  for (const element of receivedType) {
-    let temp = possibleColor.indexOf(element);
-    if (temp !== -1) {
-      color.push(colorCss[element]);
-    } else {
-      temp = possibleTypes.indexOf(element);
-      if (temp !== -1) {
-        type.push(typesCss[element]);
-      } else {
-        console.log(`${element} not known as type`);
-      }
-    }
-  }
-
-  if (color.length > 1) {
-    console.log(
-      `Should receive only a single Color class but received ${color.length}. But Classes Received: ${color}`
-    );
-    cssClasses.push(color.pop());
-  } else if (color.length === 1) {
-    cssClasses.push(color.pop());
-  }
-
-  if (type.length > 1) {
-    console.log(
-      `Should receive only a single Type class but received ${type.length}. But Classes Received: ${type}`
-    );
-    cssClasses.push(type.pop());
-  } else if (type.length === 1) {
-    cssClasses.push(type.pop());
-  }
-
-  const finalClass = (
-    cssClasses.join(' ') + (props.className ? ' ' + props.className : '')
-  ).trimRight();
-
+const ButtonComponent = (props) => {
   return (
     <button
-      className={finalClass}
+      className={props.finalClass}
       style={{ ...props.style }}
       onClick={props.onClick ? props.onClick : (event) => {}}
       {...props.htmlAttributes}
@@ -75,6 +34,17 @@ export const Button = (props) => {
   );
 };
 
+ButtonComponent.displayName = 'Material Button';
+
+export const Button = buttonWrapper(
+  ButtonComponent,
+  [styles.Button],
+  colorCss,
+  typesCss
+);
+
+export default Button;
+
 Button.propTypes = {
   type: PropTypes.string,
   className: PropTypes.string,
@@ -83,5 +53,3 @@ Button.propTypes = {
   onClick: PropTypes.func,
   children: PropTypes.oneOfType([PropTypes.element, PropTypes.node])
 };
-
-export default Button;
