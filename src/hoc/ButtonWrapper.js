@@ -8,7 +8,7 @@ export const buttonWrapper = (
 ) => {
   class ButtonWrapper extends React.Component {
     render() {
-      const cssClasses = [...defaultClasses];
+      const cssClasses = defaultClasses ? [...defaultClasses] : [];
 
       const type = [];
       const color = [];
@@ -48,8 +48,6 @@ export const buttonWrapper = (
           }
         }
       }
-
-      console.log(receivedType);
 
       if (color.length > 1) {
         console.log(

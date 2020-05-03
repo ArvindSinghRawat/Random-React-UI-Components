@@ -20,7 +20,6 @@ export const possibleTypes = Object.keys(typesCss);
 export const possibleColor = Object.keys(colorCss);
 
 const ButtonComponent = (props) => {
-  console.log(props.finalClass);
   return (
     <button
       className={props.finalClass}
