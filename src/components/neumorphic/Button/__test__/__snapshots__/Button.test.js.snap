@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`For Neumorphic Button :  Should correctly render <Button /> 1`] = `
+<ButtonWrapper(Neumorphic Button)>
+  <Neumorphic Button
+    finalClass="Button"
+  >
+    <button
+      className="Button"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      This is a Neumorphic Button
+    </button>
+  </Neumorphic Button>
+</ButtonWrapper(Neumorphic Button)>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render <Button onClick="custommethod" /> 1`] = `
+<ButtonWrapper(Neumorphic Button)
+  onClick={[MockFunction]}
+>
+  <Neumorphic Button
+    finalClass="Button"
+    onClick={[MockFunction]}
+  >
+    <button
+      className="Button"
+      onClick={[MockFunction]}
+      style={Object {}}
+    >
+      This is a Neumorphic Button
+    </button>
+  </Neumorphic Button>
+</ButtonWrapper(Neumorphic Button)>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "customClass" 1`] = `
+<Neumorphic Button
+  className="customClass"
+  finalClass="Button customClass"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "dark" 1`] = `
+<Neumorphic Button
+  finalClass="Button Dark"
+  type="dark"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "defaultIn dark" 1`] = `
+<Neumorphic Button
+  finalClass="Button DefaultIn Dark"
+  type="defaultIn dark"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "defaultIn light" 1`] = `
+<Neumorphic Button
+  finalClass="Button DefaultIn Light"
+  type="defaultIn light"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "defaultIn xdark" 1`] = `
+<Neumorphic Button
+  finalClass="Button DefaultIn XDark"
+  type="defaultIn xdark"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "defaultIn" 1`] = `
+<Neumorphic Button
+  finalClass="Button DefaultIn"
+  type="defaultIn"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "defaultOut dark" 1`] = `
+<Neumorphic Button
+  finalClass="Button DefaultOut Dark"
+  type="defaultOut dark"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "defaultOut light" 1`] = `
+<Neumorphic Button
+  finalClass="Button DefaultOut Light"
+  type="defaultOut light"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "defaultOut xdark" 1`] = `
+<Neumorphic Button
+  finalClass="Button DefaultOut XDark"
+  type="defaultOut xdark"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "defaultOut" 1`] = `
+<Neumorphic Button
+  finalClass="Button DefaultOut"
+  type="defaultOut"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "inset dark" 1`] = `
+<Neumorphic Button
+  finalClass="Button Inset Dark"
+  type="inset dark"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "inset light" 1`] = `
+<Neumorphic Button
+  finalClass="Button Inset Light"
+  type="inset light"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "inset xdark" 1`] = `
+<Neumorphic Button
+  finalClass="Button Inset XDark"
+  type="inset xdark"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "inset" 1`] = `
+<Neumorphic Button
+  finalClass="Button Inset"
+  type="inset"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "light" 1`] = `
+<Neumorphic Button
+  finalClass="Button Light"
+  type="light"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;
+
+exports[`For Neumorphic Button :  Should correctly render Button with cssClass = "xdark" 1`] = `
+<Neumorphic Button
+  finalClass="Button XDark"
+  type="xdark"
+>
+  This is a Neumorphic Button
+</Neumorphic Button>
+`;

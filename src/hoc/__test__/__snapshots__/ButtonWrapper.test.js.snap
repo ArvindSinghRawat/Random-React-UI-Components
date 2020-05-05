@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`For ButtonWrapper() HOC :  Should correctly render child component even when unknown type is given with log 1`] = `
+<ButtonWrapper(Material Button)
+  finalClass="customClass"
+  type="xsaldnf"
+>
+  This is Inner Component
+</ButtonWrapper(Material Button)>
+`;
+
+exports[`For ButtonWrapper() HOC :  Should render the child component with cssClass = 'customClass customButton' 1`] = `
+<ButtonWrapper(Material Button)
+  finalClass="customClass customButton"
+  type="t1"
+>
+  This is Inner Component
+</ButtonWrapper(Material Button)>
+`;
+
+exports[`For ButtonWrapper() HOC :  Should render the child component with cssClass = 'customClass customButton2' and with console error log for multipl type classes 1`] = `
+<ButtonWrapper(Material Button)
+  finalClass="customClass customButton2"
+  type="t1 t2"
+>
+  This is Inner Component
+</ButtonWrapper(Material Button)>
+`;
+
+exports[`For ButtonWrapper() HOC :  Should render the child component with cssClass = 'customClass customColor' 1`] = `
+<ButtonWrapper(Material Button)
+  finalClass="customClass customColor"
+  type="c1"
+>
+  This is Inner Component
+</ButtonWrapper(Material Button)>
+`;
+
+exports[`For ButtonWrapper() HOC :  Should render the child component with cssClass = 'customClass customColor2' and with console error log for multipl color classes 1`] = `
+<ButtonWrapper(Material Button)
+  finalClass="customClass customColor2"
+  type="c1 c2"
+>
+  This is Inner Component
+</ButtonWrapper(Material Button)>
+`;
+
+exports[`For ButtonWrapper() HOC :  Should render the child component with cssClass = 'customClass'. With two error logs. 1`] = `
+<ButtonWrapper(Material Button)
+  finalClass="customClass"
+>
+  This is Inner Component
+</ButtonWrapper(Material Button)>
+`;
+
+exports[`For ButtonWrapper() HOC :  Should render the child component. With two error logs. 1`] = `
+<ButtonWrapper(Material Button)
+  finalClass=""
+>
+  This is Inner Component
+</ButtonWrapper(Material Button)>
+`;
+
+exports[`For ButtonWrapper() HOC :  Should render the string child component. With two error logs. 1`] = `
+<This is Inner Component
+  finalClass=""
+/>
+`;

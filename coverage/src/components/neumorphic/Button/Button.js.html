@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/components/material/Button/Button.js</title>
+    <title>Code coverage report for src/components/neumorphic/Button/Button.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="..\..\..\..\prettify.css" />
     <link rel="stylesheet" href="..\..\..\..\base.css" />
@@ -18,7 +18,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="..\..\..\..\index.html">All files</a> / <a href="index.html">src/components/material/Button</a> Button.js</h1>
+        <h1><a href="..\..\..\..\index.html">All files</a> / <a href="index.html">src/components/neumorphic/Button</a> Button.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -118,23 +118,23 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -147,18 +147,18 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -169,21 +169,21 @@
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
 import PropTypes from 'prop-types';
 &nbsp;
-// Styles
-import styles from './Button.module.css';
 import { buttonWrapper } from '../../../hoc/ButtonWrapper';
 &nbsp;
+// Style
+import styles from './Button.module.css';
+&nbsp;
 const colorCss = {
-  primary: styles.Primary,
+  light: styles.Light,
   dark: styles.Dark,
-  success: styles.Success,
-  warning: styles.Warning,
-  danger: styles.Danger
+  xdark: styles.XDark
 };
 &nbsp;
 const typesCss = {
-  outline: styles.Outline,
-  none: styles.None
+  inset: styles.Inset,
+  defaultIn: styles.DefaultIn,
+  defaultOut: styles.DefaultOut
 };
 &nbsp;
 export const possibleTypes = Object.keys(typesCss);
@@ -202,7 +202,7 @@ const ButtonComponent = (props) =&gt; {
   );
 };
 &nbsp;
-ButtonComponent.displayName = 'Material Button';
+ButtonComponent.displayName = 'Neumorphic Button';
 &nbsp;
 export const Button = buttonWrapper(
   ButtonComponent,
