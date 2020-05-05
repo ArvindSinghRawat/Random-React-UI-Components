@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import { buttonWrapper } from '../../../hoc/ButtonWrapper';
 
 // Style
@@ -42,3 +44,12 @@ export const Button = buttonWrapper(
 );
 
 export default Button;
+
+Button.propTypes = {
+  type: PropTypes.string,
+  className: PropTypes.string,
+  style: PropTypes.object,
+  htmlAttributes: PropTypes.object,
+  onClick: PropTypes.func,
+  children: PropTypes.oneOfType([PropTypes.element, PropTypes.node])
+};

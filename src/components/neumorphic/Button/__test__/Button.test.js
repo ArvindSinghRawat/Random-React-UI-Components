@@ -5,8 +5,8 @@ import Button, { possibleTypes, possibleColor } from '../Button';
 
 configure({ adapter: new Adapter() });
 
-describe('For Material Button : ', () => {
-  const content = 'This is a Material Button';
+describe('For Neumorphic Button : ', () => {
+  const content = 'This is a Neumorphic Button';
   let wrapper = null;
   beforeEach(() => {
     wrapper = shallow(<Button>{content}</Button>);
